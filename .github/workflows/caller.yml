@@ -4,3 +4,4 @@ on:
 jobs:
   dispatch:
     uses: SouthCoded/Workflow-Research/.github/workflows/prod_work.yml@main
+    secrets: inherit
