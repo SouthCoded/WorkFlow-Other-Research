@@ -7,4 +7,4 @@ jobs:
     with:
         ENVIRONMENT: prod
     secrets:
-        MY_SECRET: ${{ secrets.PROD_ENV_REPO_SECRET }}
+        MY_SECRET: ${{ secrets.OTHER_ENV_REPO_SECRET }}
