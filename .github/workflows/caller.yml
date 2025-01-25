@@ -4,7 +4,5 @@ on:
 jobs:
   dispatch:
     uses: SouthCoded/Workflow-Research/.github/workflows/prod_work.yml@main
-    with:
-        environment: prod
-    secrets:
-        MY_SECRET: ${{ secrets.OTHER_ENV_REPO_SECRET }}
+    secrets: inherit
+        
